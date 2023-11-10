@@ -1,1 +1,1 @@
-Esercizio sulla creazione di una pagia html (web-app) sfruttando anche librerie bootstrap
+Esercizio sulla creazione di una pagina html (web-app) sfruttando anche librerie bootstrap
