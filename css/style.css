@@ -9,3 +9,82 @@
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
+
+.center {
+    overflow-y: auto;
+    padding: 50px;
+}
+
+.top {
+    background-color: red;
+    height: 100px;
+}
+
+.container-vert {
+    background-color: rgb(5, 30, 52);
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-tot {
+    background-color: blue;
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+.container-main {
+    background-color: cadetblue;
+    width: 100%;
+    height: 100%;
+}
+.Orizzontal-Box {
+    background-color: green;
+    width: 100%;
+    display: flex; 
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+
+/* Container Verticale */
+
+.container-vert li {
+    margin: 10px 0px 10px 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.Vblock {
+    flex-grow: 1;
+    margin-left: -15px; 
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.block {
+    background-color: yellow;
+}
+
+.block1 {
+    background-color: pink;
+}
+
+.block2 {
+    background-color: brown;
+}
+
+.block3 {
+    background-color: orange;
+}
+
