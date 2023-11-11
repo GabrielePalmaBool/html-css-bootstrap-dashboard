@@ -1,23 +1,63 @@
- /************************************************
-    PARTE RESPONSIVE
- ************************************************/
 
+  
 
- /* Versione mobile */
- @media screen and (max-width: 576px) {
+ /* Versione tablet in su */
+ @media screen and (min-width: 576px) {
+
+    /* Container orizzontale */
+
+   #Logo1 {
+    width: 13%;
+    }
 
     /* Container verticale */
 
     .container-vert {
-        max-width: 50px;
+        min-width: 150px;
     }
 
     .container-vert .Vblock {
-        margin-left: -25px; 
+        margin-left: -20px; 
     }
 
     .container-vert p {
+        display: inline-block;
+    }
+
+}
+
+ /* Versione tablet in su */
+ @media screen and (min-width: 800px) {
+
+    /* Container orizzontale */
+ 
+    #Logo1 {
+     width: 10%;
+     }
+ }
+
+ /* Versione tablet in su */
+ @media screen and (min-width: 900px) {
+
+    /* Container orizzontale */
+ 
+    #Logo1 {
+     width: 9%;
+     }
+ }
+
+  /* Versione desktop in su */
+  @media screen and (min-width: 992px) {
+
+    /* Container orizzontale */
+
+    #Logo1 {
         display: none;
     }
 
- }
+    #Logo2 {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+}
