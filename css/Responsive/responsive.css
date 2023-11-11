@@ -1,0 +1,23 @@
+ /************************************************
+    PARTE RESPONSIVE
+ ************************************************/
+
+
+ /* Versione mobile */
+ @media screen and (max-width: 576px) {
+
+    /* Container verticale */
+
+    .container-vert {
+        max-width: 50px;
+    }
+
+    .container-vert .Vblock {
+        margin-left: -25px; 
+    }
+
+    .container-vert p {
+        display: none;
+    }
+
+ }

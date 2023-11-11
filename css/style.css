@@ -33,12 +33,14 @@
     background-color: blue;
     display: flex;
     height: calc(100vh - 100px);
+    
 }
 
 .container-main {
     background-color: cadetblue;
     width: 100%;
     height: 100%;
+    overflow-y: auto;
 }
 .Orizzontal-Box {
     background-color: green;
@@ -52,19 +54,34 @@ ul{
 }
 
 
-
-
-
 /* Container Verticale */
 
 .container-vert li {
     margin: 10px 0px 10px 0px;
-    color: white;
-    font-size: 20px;
+    
 }
 
 .Vblock {
-    margin-left: -15px; 
+    margin-left: -20px; 
+}
+
+.container-vert a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container-vert a:hover {
+    color: black;
+}
+
+.container-vert p {
+    display: inline-block;
+}
+
+.container-vert .float {
+    margin-left: 5px;
 }
 
 .block {
