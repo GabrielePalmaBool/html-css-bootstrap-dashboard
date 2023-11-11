@@ -61,3 +61,15 @@
     }
 
 }
+
+
+  /* Versione desktop in su */
+  @media screen and (min-width: 1400px) {
+
+    /* Container centrale */
+
+    .container {
+        max-width: 100%;
+    }
+
+}
