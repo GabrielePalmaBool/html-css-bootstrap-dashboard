@@ -10,6 +10,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.navbar {
+    max-height: 100px;
+}
+
 .center {
     overflow-y: auto;
     padding: 50px;
@@ -54,34 +58,42 @@ ul{
 }
 
 
-/* Container Orizzontale */
+/* Navbar */
 
-.OTblock {
-    background-color: red;
-    width: 100%;
-    height: 70px;
-    margin: 15px;
-}
 
 #Logo1 {
-    width: 16%;
+    width: 10%;
 }
 
-#Logo2 {
+.navbar .fa-bell:active {
+    color: gold;
+}
+
+.navbar #Logo2, .none{
     display: none;
+}
+
+
+.navbar .fa-bell {
+    margin-right: 10px;
 }
 
 /* Container Verticale */
 
 .container-vert li {
-    margin: 10px 0px 10px 0px;
-    
+    /* margin: 10px 0px 10px 0px; */
+    padding: 5px;
+}
+
+.container-vert .link {
+    width: 30px;
+    height: 30px;
+    padding:0px 5px 0px 5px;
 }
 
 .Vblock {
     margin-left: -30px; 
 }
-
 
 .container-vert p {
     display: none;
@@ -94,8 +106,9 @@ ul{
     font-weight: bold;
 }
 
-.container-vert a:hover {
+.container-vert a:hover, .container-vert .link:hover {
     color: black;
+    background-color: lightgrey;
 }
 
 

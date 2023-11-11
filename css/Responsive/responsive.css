@@ -6,8 +6,8 @@
 
     /* Container orizzontale */
 
-   #Logo1 {
-    width: 13%;
+    .navbar .none{
+        display: inline-block;
     }
 
     /* Container verticale */
@@ -16,8 +16,9 @@
         min-width: 150px;
     }
 
-    .container-vert .Vblock {
-        margin-left: -20px; 
+    .container-vert .link {
+        width: 120px;
+        height: 30px;
     }
 
     .container-vert p {
@@ -26,36 +27,16 @@
 
 }
 
- /* Versione tablet in su */
- @media screen and (min-width: 800px) {
-
-    /* Container orizzontale */
- 
-    #Logo1 {
-     width: 10%;
-     }
- }
-
- /* Versione tablet in su */
- @media screen and (min-width: 900px) {
-
-    /* Container orizzontale */
- 
-    #Logo1 {
-     width: 9%;
-     }
- }
-
   /* Versione desktop in su */
   @media screen and (min-width: 992px) {
 
     /* Container orizzontale */
 
-    #Logo1 {
+    .navbar #Logo1 {
         display: none;
     }
 
-    #Logo2 {
+    .navbar #Logo2 {
         display: inline-block;
         margin-top: 20px;
     }
