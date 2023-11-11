@@ -26,7 +26,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    
+    justify-content : space-between;
 }
 
 .container-tot {
@@ -64,12 +64,7 @@ ul{
 }
 
 .Vblock {
-    flex-grow: 1;
     margin-left: -15px; 
-}
-
-.end {
-    justify-content: flex-end;
 }
 
 .block {
