@@ -4,7 +4,7 @@
  /* Versione tablet in su */
  @media screen and (min-width: 576px) {
 
-    /* Container orizzontale */
+    /* navbar bootstrap (container-fluid) */
 
     .navbar .none{
         display: inline-block;
@@ -25,7 +25,38 @@
         display: inline-block;
     }
 
+
+    /* Container main */
+
+    /* Container fluid (orizzontale) */
+
+    /* Prima colonna */
+    .Orizzontal-Box .breadcrumb .none-sm {
+        display: none;
+    } 
+
+
+    /* Terza colonna */
+    .Orizzontal-Box .row .none-sx {
+        display: inline-block;
+    } 
+
 }
+
+  /* Versione desktop in su */
+  @media screen and (min-width: 768px) {
+
+    /* Container main */
+
+    /* Container fluid (orizzontale) */
+
+    /* Prima colonna */
+    .Orizzontal-Box .row .none-md {
+        display: inline-block;
+    } 
+
+}
+
 
   /* Versione desktop in su */
   @media screen and (min-width: 992px) {
