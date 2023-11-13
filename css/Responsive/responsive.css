@@ -1,6 +1,21 @@
 
   
 
+ /* Versione mobile-tablet in giu */
+ @media screen and (max-width: 576px) {
+
+    
+
+    /* Container main */
+
+    /* Container center (blocchi) */
+
+    .center .table_box .none-sx {
+        display: none;
+    }
+
+}
+
  /* Versione mobile-tablet in su */
  @media screen and (min-width: 576px) {
 
@@ -8,9 +23,11 @@
 
     /* Container main */
 
-    /* Container fluid (orizzontale) */
+    /* Container center (blocchi) */
 
-    
+    .center .table_box .icon a{
+        padding: 2px 2px 2px 2px;
+    }
 
 }
 
@@ -75,6 +92,12 @@
         font-size: 50px;
     } 
 
+    /* Container center (blocchi) */
+
+    .center .table_box .icon a{
+        padding: 5px 10px 5px 10px;
+    }
+
 }
 
 
@@ -89,7 +112,7 @@
 
     .navbar #Logo2 {
         display: inline-block;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
 }

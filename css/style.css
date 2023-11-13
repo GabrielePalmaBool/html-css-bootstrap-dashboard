@@ -79,7 +79,6 @@ ul{
 /* Container Verticale */
 
 .container-vert li {
-    /* margin: 10px 0px 10px 0px; */
     padding: 5px;
 }
 
@@ -117,7 +116,7 @@ ul{
 
 /*--------------------------- Container main------------------------------- */
 
-/* Container orizzontale */
+/*---------------- Container orizzontale ---------------- */
 
 .Orizzontal-Box .breadcrumb {
     color: white;
@@ -203,9 +202,82 @@ ul{
 } 
 
 
-.block {
-    background-color: yellow;
+/*---------------- Container center (bootstrap) ---------------- */
+
+.center .table_box {
+    
+    border: 2px solid lightgray;
+    border-radius: 15px;
 }
+
+.center .table_box caption {
+    border-bottom: 2px solid lightgray;
+    color: black;
+    background-color: rgb(247, 247, 247);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.center .table_box caption h4 {
+    margin-left: 5px;
+}
+
+.center .table_box .logo3{
+    width: 30px;
+    display: inline-block;
+    background-color: white;
+}
+
+.center .table_box .logo3 img {
+    width: 100%;
+}
+
+.center .table_box a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.center .table_box .done a{
+    background-color: green;
+}
+
+.center .table_box .process a{  
+    background-color: gold;
+}
+
+.center .table_box .failed a{
+    background-color: red;
+}
+
+.center .table_box a:hover {
+    color: black;
+}
+
+.center .table_box .icon {
+   display: inline-block;
+}
+
+
+.center .table_box .icon a {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.center .table_box .icon a:hover {
+    color: black;
+    background-color: gray;
+}
+
+
 
 .block1 {
     background-color: pink;
