@@ -41,7 +41,7 @@
 }
 
 .container-main {
-    background-color: cadetblue;
+    background-color: white;
     width: 100%;
     height: 100%;
     overflow-y: auto;
@@ -129,7 +129,7 @@ ul{
     display: none;
 } 
 
-.Orizzontal-Box .breadcrumb a{
+.Orizzontal-Box .prima .breadcrumb a{
     text-decoration: none;
     color: white;
     cursor: pointer;
@@ -139,35 +139,54 @@ ul{
     background-color: rgb(22, 91, 186);
 }
 
-.Orizzontal-Box .breadcrumb .fa-plus {
-    font-size: 20px;
-    padding: 5px 5px 5px 5px;
+.Orizzontal-Box .terza .breadcrumb a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
     border-radius: 20px;
-    background-color: rgb(22, 91, 186); 
 }
 
+.Orizzontal-Box .terza .dropdown-toggle::after {
+    display: none;
+}
 
 .Orizzontal-Box .breadcrumb a:hover{
     color: black;
 }
 
-.Orizzontal-Box .breadcrumb .none-sm {
-    margin:5px 0px 20px 10px;
+.Orizzontal-Box .breadcrumb .Inone-sm {
+    margin:0px 0px 10px 0px;
 } 
 
 .Orizzontal-Box .breadcrumb .none-sm span{
     font-size: 20px;
 } 
 
-.Orizzontal-Box .breadcrumb .fa-angles-right{
+/* Lista ordinata superiore */
+
+.Orizzontal-Box .tp .Inone-sm .fa-regular{
+    margin: -5px 0px 0px 10px;
+    font-size: 50px;
+} 
+
+.Orizzontal-Box .tp .link {
+    margin:5px 0px 0px 5px;
+
+}
+
+/* Lista ordinata inferiore */
+
+.Orizzontal-Box .bt .fa-plus {
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    background-color: rgb(22, 91, 186); 
+}
+ 
+.Orizzontal-Box .bt .fa-angles-right{
     font-size: 20px;
 } 
-
-.Orizzontal-Box .breadcrumb .none-sm .fa-regular{
-    margin: -10px 0px 0px 10px;
-    font-size: 70px;
-} 
-
 /* Seconda colonna */
 
 .Orizzontal-Box .OR-Box {
@@ -179,7 +198,7 @@ ul{
 } 
 
 /* Terza colonna */
-.Orizzontal-Box .row .none-sx {
+.Orizzontal-Box .row .Cnone-sm {
     display: none;
 } 
 
