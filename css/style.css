@@ -205,15 +205,40 @@ ul{
 /*---------------- Container center (bootstrap) ---------------- */
 
 .center .table_box {
-    
     border: 2px solid lightgray;
     border-radius: 15px;
 }
 
-.center .table_box caption {
+.center .vanish3_md{
+        display: none;
+}
+
+.center .vanishes_from_lg {
+    display: none;
+}
+
+.center .table_box .radio_box {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+}
+
+.center .table_box .radio_box .form-check {
+    margin: 10px;
+}
+
+.center .table_box .title {
     border-bottom: 2px solid lightgray;
-    color: black;
     background-color: rgb(247, 247, 247);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 10px 0px 0px 20px;
+    width: 100%;
+    height: 60px;
+}
+
+.center .table_box .accordion-header{
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }

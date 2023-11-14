@@ -29,6 +29,7 @@
         padding: 2px 2px 2px 2px;
     }
 
+
 }
 
 
@@ -98,6 +99,10 @@
         padding: 5px 10px 5px 10px;
     }
 
+    .center .T_none_md {
+        display: none;
+    }
+
 }
 
 
@@ -113,6 +118,20 @@
     .navbar #Logo2 {
         display: inline-block;
         margin-top: 10px;
+    }
+
+
+     /* Container main */
+
+     /* Container center (blocchi) */
+
+    .center .present_until_lg {
+        display: none;
+    }
+
+    .center .vanishes_from_lg {
+        display: inline-block;
+        width: 100%;
     }
 
 }
