@@ -253,24 +253,33 @@ ul{
     width: 100%;
 }
 
-.center .table_box a{
+.center .table_box .done a{
     text-decoration: none;
     color: white;
     cursor: pointer;
     font-size: 15px;
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
-}
-
-.center .table_box .done a{
     background-color: green;
 }
 
 .center .table_box .process a{  
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
     background-color: gold;
 }
 
 .center .table_box .failed a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
     background-color: red;
 }
 
@@ -281,7 +290,6 @@ ul{
 .center .table_box .icon {
    display: inline-block;
 }
-
 
 .center .table_box .icon a {
     text-decoration: none;
@@ -300,15 +308,35 @@ ul{
 
 
 
-.block1 {
-    background-color: pink;
+/* quarto blocco */
+.center .table_box .Stat_box {
+    margin: 20px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
 }
 
-.block2 {
-    background-color: brown;
+.center .table_box .Stat_box .img_box {
+    padding: 10px;
 }
 
-.block3 {
-    background-color: orange;
+.center .table_box .Stat_box .img_box img {
+    width: 100%;
+}
+
+.center .table_box .Stat_box .Text_box {
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+    padding: 10px;
+}
+
+.center .table_box .Stat_box .Link_box {
+    padding: 10px;
+}
+
+.center .table_box .Stat_box .Link_box  a{
+    color: blue;
+    cursor: pointer;
+    font-size: 20px;
+
 }
 
