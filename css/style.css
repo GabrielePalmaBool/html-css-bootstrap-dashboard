@@ -306,8 +306,6 @@ ul{
     background-color: gray;
 }
 
-
-
 /* quarto blocco */
 .center .table_box .Stat_box {
     margin: 20px;
@@ -341,6 +339,10 @@ ul{
 
 .center .table_box .Stat_box .Link_box  a:hover {
     color: black;
+}
+
+.center .block {
+    background-color: red;
 }
 
 
