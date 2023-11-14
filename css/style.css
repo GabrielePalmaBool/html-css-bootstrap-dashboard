@@ -337,6 +337,10 @@ ul{
     color: blue;
     cursor: pointer;
     font-size: 20px;
-
 }
+
+.center .table_box .Stat_box .Link_box  a:hover {
+    color: black;
+}
+
 
